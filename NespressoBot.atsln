@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Atmel Studio Solution File, Format Version 11.00
+Project("{54F91283-7BC4-4236-8FF9-10F437C3AD48}") = "NespressoBot", "NespressoBot\NespressoBot.cproj", "{BA1E0F7A-1228-45BF-8A01-9BE799EA45C3}"
+EndProject
+Project("{18226A42-8477-4023-8AD2-40C49DA407C9}") = "Bootloader", "Bootloader\Bootloader.asmproj", "{DB4F5BD5-512F-4DEA-B7F2-4CD0EE77257F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|AVR = Debug|AVR
+		Release|AVR = Release|AVR
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BA1E0F7A-1228-45BF-8A01-9BE799EA45C3}.Debug|AVR.ActiveCfg = Debug|AVR
+		{BA1E0F7A-1228-45BF-8A01-9BE799EA45C3}.Debug|AVR.Build.0 = Debug|AVR
+		{BA1E0F7A-1228-45BF-8A01-9BE799EA45C3}.Release|AVR.ActiveCfg = Release|AVR
+		{BA1E0F7A-1228-45BF-8A01-9BE799EA45C3}.Release|AVR.Build.0 = Release|AVR
+		{DB4F5BD5-512F-4DEA-B7F2-4CD0EE77257F}.Debug|AVR.ActiveCfg = Debug|AVR
+		{DB4F5BD5-512F-4DEA-B7F2-4CD0EE77257F}.Debug|AVR.Build.0 = Debug|AVR
+		{DB4F5BD5-512F-4DEA-B7F2-4CD0EE77257F}.Release|AVR.ActiveCfg = Release|AVR
+		{DB4F5BD5-512F-4DEA-B7F2-4CD0EE77257F}.Release|AVR.Build.0 = Release|AVR
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
